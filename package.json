@@ -1,0 +1,15 @@
+{
+  "name": "my-chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ./server/ && npm install && node server.js",
+    "build": "cd ./client/ && npm install && npm run build",
+    "backend": "cd ./server && node server.js",
+    "frontend": "cd ./client && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
